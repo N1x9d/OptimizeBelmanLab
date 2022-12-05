@@ -14,6 +14,7 @@ namespace OptimizeLab
     }
     internal class Program
     {
+        //Вариант 1
         private static int[] Org1 = {5, 9, 12, 14, 15, 18, 20, 24, 27 };
         private static int[] Org2 = {7, 9, 11, 13, 16, 19, 21, 22, 25 };
         private static int[] Org3 = {6, 10, 13,15, 16, 18, 21, 22, 25 };
@@ -54,11 +55,6 @@ namespace OptimizeLab
                     Si = i,
                 }
                );
-            }
-
-            for (int i = 0; i <= S0; i++)
-            {
-             
             }
             
             var x1O = orgMaxOutputs1.OrderByDescending(c=> c.maxZ).First();
